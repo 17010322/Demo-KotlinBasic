@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter your birth year" />
+
+    <Button
+        android:id="@+id/btnGetAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get my age" />
+
+    <TextView
+        android:id="@+id/tvShowAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Age Shows Here" />
+
+    <TextView
+        android:id="@+id/tvShowCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Category is :" />
+
+</LinearLayout>
